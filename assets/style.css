@@ -1,4 +1,28 @@
 body{
     background-color: aquamarine;
     font-family: sans-serif;
+    margin: 0;
+}
+.header{
+ background-color: slategray;
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    align-items:center ;
+    padding: 10px 0 10px 0px;
+}
+.header h1{
+    text-align: left;
+        background-color: blueviolet;
+        padding: 0 9px 0 41px;
+        color: slategray;
+    
+}
+.header ul li{
+    display: inline;
+flex-direction: row;
+justify-content:flex-end;
+color:turquoise;
+text-align: right;
+align-content: center;
 }
