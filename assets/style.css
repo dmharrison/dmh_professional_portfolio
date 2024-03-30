@@ -17,17 +17,30 @@ header h1{
     text-align: left;
         background-color: blueviolet;
         padding: 0 9px 0 41px;
-        color: slategray;
-    
+                font-size: 50px;    
 }
- header h1 li{
-    color:blueviolet;
- }
-.topNav,{
-    display: flex;
-} 
+header h1 a{
+    color: slategray;
+    text-decoration: none;
+}
+header nav{
+    padding-right: 5%;
+}
 
+/* set topNav links to flex items */
 .topNav{
-    padding: 5%;
+    display: flex;
+    list-style: none;
+    } 
+.topNav li{
+    padding: 5px;
+}
+.topNav a{
+    color: blueviolet;
+    padding: 5px 10px;
+    font-size: 20px;
+    text-decoration: none;
+    border-bottom: 3px solid blueviolet;
+    
 }
 
