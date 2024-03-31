@@ -50,11 +50,22 @@ header nav{
 
 .hero{
     background-image: url("../assets/images/hero.jpg");
-    background-position: top;
     background-size: cover;
+    background-attachment: fixed;
+    background-position: top;
     height: 200px;
     position: relative;
-    background-position-x: fixed;
+}
+
+.hero h2{
+    background-color: blueviolet;
+    color: slategray;
+    font-size: 20px;
+    position: absolute;
+    bottom: 20px;
+    right: 5%;
+    padding: 0px 20px;
+
 
 }
 
