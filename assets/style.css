@@ -70,5 +70,41 @@ header nav{
 .container{
     display: flex;
 }
+#profile{display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: blueviolet;
+    width: 100%;
+    margin-top: 2px;
     
+
+}
+.aside-about{
+   background-color: white;
+   font-size: 40px;
+   text-align: end;
+   padding-right: 15px;
+   border-right: 4px solid navy;
+
+}   
+.photo{
+    width: 11%;
+    margin: 0 2% 1% 0;
+    border: 5px solid navy;
+    float: left;
+}
+
+.profile-content{
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    background-color: chartreuse;
+    margin-left: 50px;
+    
+}
+ 
+
+.work-projects{
+    display: flex;
+}
 
