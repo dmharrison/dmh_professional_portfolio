@@ -79,14 +79,13 @@ header nav{
     
 
 }
-.aside-about{
+.aside-section{
    background-color: white;
    font-size: 40px;
    text-align: end;
    padding-right: 15px;
    border-right: 4px solid navy;
    padding-left: 160px;
-
 }   
 .photo{
     width: 11%;
@@ -102,7 +101,3 @@ header nav{
     text-align: left;
     }
  
-.work-projects{
-    display: flex;
-}
-
