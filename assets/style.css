@@ -65,7 +65,10 @@ header nav{
     bottom: 20px;
     right: 5%;
     padding: 0px 20px;
-
-
 }
+
+.container{
+    display: flex;
+}
+    
 
