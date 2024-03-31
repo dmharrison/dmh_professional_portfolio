@@ -1,5 +1,5 @@
 body{
-    background-color: aquamarine;
+    background-color: slategray;
     font-family: sans-serif;
     margin: 0;
 }
@@ -66,27 +66,33 @@ header nav{
     right: 5%;
     padding: 0px 20px;
 }
-
 .container{
-    display: flex;
+    width:1200px;
+    margin:auto
 }
-#profile{
+/* about me section */
+.profile{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
     margin-top: 20px;
-    
+    margin-bottom: 30px;
 
 }
 .aside-section{
    background-color: white;
-   font-size: 40px;
-   text-align: end;
-   padding-right: 15px;
    border-right: 4px solid navy;
-   padding-left: 160px;
+   min-width: 160px;
+   margin-right: 20px;
+    
 }   
+.aside-section h2{
+    text-align: right;
+    font-size: 36px;
+    color: slategray;
+    padding: 10px;
+}
 .photo{
     width: 11%;
     margin: 0 2% 1% 0;
@@ -96,8 +102,13 @@ header nav{
 
 .profile-content{
     flex-grow: 1;
-    background-color: chartreuse;
-    margin-left: 50px;
+       margin-left: 50px;
     text-align: left;
-    }
+    line-height: 1.5;
+
+}
+
+#work-projects{
+    display: flex;
+}
  
