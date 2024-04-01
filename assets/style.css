@@ -47,6 +47,12 @@ header nav{
     text-decoration: none;
     border-bottom: 3px solid blueviolet;
 }
+.topNav a:hover{
+    background-color: blueviolet;
+    color:slategray;
+    border-radius: 10px;
+        
+}
 
 .hero{
     background-image: url("../assets/images/hero.jpg");
@@ -127,7 +133,7 @@ header nav{
 
 .card{
     position: relative;
-    width: 45%;
+    width: 48%;
     margin-bottom: 15px;
     border: 5px solid navy;
 }
