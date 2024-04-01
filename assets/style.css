@@ -127,7 +127,7 @@ header nav{
 
 .card{
     position: relative;
-    width: 50%;
+    width: 45%;
     margin-bottom: 15px;
     border: 5px solid navy;
 }
@@ -147,4 +147,22 @@ figcaption{
     width: 100%;
     height: 100%;
     opacity: 75%;
+}
+
+footer{
+    display: flex;
+    }
+.lowerNav{
+    margin: auto;
+}
+.lowerNav ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+}
+.lowerNav ul li{
+    margin-right: 20px;
+    padding: 20px;
 }
