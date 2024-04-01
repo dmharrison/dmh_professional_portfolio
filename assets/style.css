@@ -108,17 +108,30 @@ header nav{
 
 }
 /* work section */
-#work-projects{
+.work-projects{
     display: flex;
     margin-bottom: 30px;
 }
-.card1{
+#surfcard{
     display: flex;
     justify-content: center;
 }
-.card1 img{
+#surfcard img{
     width: 60%;
     height: 95%;
     margin: auto;
 }
- 
+
+.card{
+    position: relative;
+    width: 48%;
+    margin-bottom: 15px;
+    border: 5px solid navy;
+}
+figcaption{
+    position: absolute;
+    bottom: 30px;
+    background-color: navy;
+    color: slategray;
+    padding: 5px 15px;
+}
