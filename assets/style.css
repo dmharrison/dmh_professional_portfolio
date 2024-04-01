@@ -108,7 +108,7 @@ header nav{
 
 .profile-content{
     flex-grow: 1;
-       margin-left: 50px;
+    margin-left: 50px;
     text-align: left;
     line-height: 1.5;
 
@@ -120,7 +120,8 @@ header nav{
 }
 #surfcard{
     display: flex;
-    justify-content: center;
+    width: fit-content;
+    
 }
 #surfcard img{
        margin: auto;
