@@ -107,8 +107,18 @@ header nav{
     line-height: 1.5;
 
 }
-
+/* work section */
 #work-projects{
     display: flex;
+    margin-bottom: 30px;
+}
+.card1{
+    display: flex;
+    justify-content: center;
+}
+.card1 img{
+    width: 60%;
+    height: 95%;
+    margin: auto;
 }
  
