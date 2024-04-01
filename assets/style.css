@@ -1,11 +1,20 @@
+/* variables */
+:root{
+    --main-color:#588157 ;
+   --border-color:#bc4749;
+    --accent-color:#dad7cd;
+    --misc-color: #8d99ae;
+    --background-color: #eaf4f4;
+
+}
 body{
-    background-color: white;
+    background-color: var(--background-color);
     font-family: sans-serif;
     margin: 0;
 }
 /* Create Header with flexbox */
 header{
- background-color: slategray;
+ background-color: var(--main-color);
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -16,13 +25,13 @@ header{
 
 header h1{
     text-align: left;
-        background-color: blueviolet;
+        background-color: var(--accent-color);
         padding: 0 9px 0 41px;
                 font-size: 50px;    
 }
 
 header h1 a{
-    color: slategray;
+    color: var(--main-color);
     text-decoration: none;
 }
 
@@ -40,22 +49,23 @@ header nav{
 }
 
 .topNav a{
-    color: blueviolet;
+    color: var(--accent-color);
     padding: 5px 10px;
     font-size: 20px;
     text-decoration: none;
-    border-bottom: 3px solid blueviolet;
+    border-bottom: 3px solid var(--accent-color);
 }
 .topNav a:hover{
-    background-color: blueviolet;
-    color:slategray;
+    background-color: var(--accent-color);
+    color:var(--main-color);
     border-radius: 10px;
-    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.6);        
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.6);
+    border: none;        
 }
 
 .lowerNav a:hover{
-    background-color: blueviolet;
-    color:slategray;
+    background-color: var(--main-color);
+    color:var(--accent-color);
     border-radius: 10px;
     box-shadow: 0 0 1rem rgba(0, 0, 0, 0.6); 
 }
@@ -70,16 +80,17 @@ header nav{
 }
 
 .hero h2{
-    background-color: blueviolet;
-    color: slategray;
-    font-size: 20px;
+    background-color: var(--main-color);
+    color: var(--accent-color);
+    font-size: 30px;
     position: absolute;
     bottom: 20px;
     right: 5%;
     padding: 0px 20px;
+    
 }
 .container{
-    width: 1050px;
+    width: 1100px;
     margin:auto
 }
 /* about me section */
@@ -93,8 +104,8 @@ header nav{
 
 }
 .aside-section{
-   background-color: white;
-   border-right: 4px solid navy;
+   background-color:var(--background-color);
+   border-right: 4px solid var(--border-color);
    min-width: 160px;
    margin-right: 20px;
     
@@ -102,13 +113,13 @@ header nav{
 .aside-section h2{
     text-align: right;
     font-size: 36px;
-    color: slategray;
+    color: var(--misc-color);
     padding: 10px;
 }
 .photo{
     width: 20%;
     margin: 0 2% 1% 0;
-    border: 5px solid navy;
+    border: 5px solid var(--border-color);
     float: left;
 }
 
@@ -133,12 +144,12 @@ header nav{
     opacity: 100%;
   transition: 500ms;
 }
-#surfcard{
+#coderefactor{
     display: flex;
     justify-content: center;
     
 }
-#surfcard img{
+#coderefactor img{
        margin: auto;
 }
 
@@ -152,26 +163,27 @@ header nav{
     position: relative;
     width: 48%;
     margin-bottom: 15px;
-    border: 5px solid navy;
-}
+    border: 5px solid var(--border-color);
+    }
 figcaption{
     position: absolute;
     bottom: 30px;
-    background-color: navy;
-    color: slategray;
+    background-color: var(--border-color);
+    color: var(--accent-color);
     padding: 5px 15px;
     z-index: 1;
 }
 .card:first-child{
     width: 100%;
-    height:500px;
+    
 }
 .card img{
     width: 100%;
     height: 100%;
     opacity: 75%;
+    object-fit: cover;
 }
-
+/* footer section */
 footer{
     display: flex;
     }
@@ -191,6 +203,9 @@ footer{
 }
 .lowerNav a{
     font-size: 20px;
-    text-decoration: none;
+    font-weight: bold;    
+    color: var(--misc-color);
     padding: 5px 10px;
 }
+
+/* media queries */
