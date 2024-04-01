@@ -51,7 +51,14 @@ header nav{
     background-color: blueviolet;
     color:slategray;
     border-radius: 10px;
-        
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.6);        
+}
+
+.lowerNav a:hover{
+    background-color: blueviolet;
+    color:slategray;
+    border-radius: 10px;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.6); 
 }
 
 .hero{
