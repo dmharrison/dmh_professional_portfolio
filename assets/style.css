@@ -35,8 +35,7 @@ header nav{
     display: flex;
     list-style: none;
     } 
-
-    .topNav li{
+.topNav li{
     padding: 5px;
 }
 
@@ -107,7 +106,7 @@ header nav{
     padding: 10px;
 }
 .photo{
-    width: 11%;
+    width: 20%;
     margin: 0 2% 1% 0;
     border: 5px solid navy;
     float: left;
@@ -129,6 +128,11 @@ header nav{
     display: flex;
     margin-bottom: 30px;
 }
+.work-projects img:hover, .work-projects{
+  filter: sepia(0%);
+    opacity: 100%;
+  transition: 500ms;
+}
 #surfcard{
     display: flex;
     justify-content: center;
@@ -137,7 +141,8 @@ header nav{
 #surfcard img{
        margin: auto;
 }
-.port1{
+
+.cardcontainer{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -183,4 +188,9 @@ footer{
 .lowerNav ul li{
     margin-right: 20px;
     padding: 20px;
+}
+.lowerNav a{
+    font-size: 20px;
+    text-decoration: none;
+    padding: 5px 10px;
 }
