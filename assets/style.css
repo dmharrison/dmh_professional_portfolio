@@ -269,6 +269,7 @@ footer{
         padding-left: 30px;
     }
 }
+
 /* for 768px screens  */
 @media screen and (max-width: 768px) {
     header nav ul li a {

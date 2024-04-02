@@ -6,13 +6,9 @@
 
 Task to create portfolio template page with placeholder images and names based only on a gif animation.
 
-## Requirement - Mock-Up
-
-The following animation shows the required web application’s appearance and functionality
-
 ## Acceptance Criteria
 
-- When the page is loaded the page presents your name, a recent photo or avatar, and links to sections about you, your work, and how to contact
+- When the page is loaded the page presents your name, and links to sections about you, your work, and how to contact
   you
 - When one of the links in the navigation is clicked then the UI scrolls to the corresponding section
   When viewing the section about your work then the section contains titled images of your applications
