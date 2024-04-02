@@ -270,3 +270,17 @@ footer{
         padding: 0px;
     }
 }
+/* for 768px screens  */
+@media screen and (max-width: 768px) {
+    header nav ul li a {
+        border: none;
+}
+
+.card{
+        width: 100%;
+    }
+
+.figcaption {
+        padding: 0;
+    }
+}
