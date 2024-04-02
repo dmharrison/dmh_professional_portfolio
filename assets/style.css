@@ -252,7 +252,7 @@ footer{
         width: 80%;
     }
 
-    .card:first-child: {
+    .card:first-child {
         height: 300px;
     }
 

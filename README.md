@@ -4,7 +4,11 @@
 
 ## Description
 
-Task to create portfolio template page with placeholder images and names based only on a gif animation.
+Task to create portfolio template page with placeholder images and names
+
+<p align="center">
+  <img alt="screenshot" src="./assets/images/screenshotport.png">
+</p>
 
 ## Acceptance Criteria
 
